@@ -1,0 +1,7 @@
+# Using TDM-GCC 5.1.0
+CC=gcc
+CXX=gcc
+CFLAGS=-fomit-frame-pointer
+CXXFLAGS=-fno-rtti -fno-exceptions -fomit-frame-pointer
+
+
