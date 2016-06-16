@@ -1,7 +1,7 @@
 prefix=c:/fra/local
 libdir=${prefix}/lib
 includedir=${prefix}/include
-GSL_CBLAS_LIB=-lgslcblas
+GSL_CBLAS_LIB=
 
 Name: GSL
 Description: GNU Scientific Library
