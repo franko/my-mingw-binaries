@@ -1,0 +1,7 @@
+prefix=c:/fra/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Version: 0.30.0
+Cflags: -I${includedir}/pixman
+Libs: -L${libdir} -lpixman-1

@@ -1,0 +1,8 @@
+prefix=c:/fra/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Version: 1.2.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpng
+
