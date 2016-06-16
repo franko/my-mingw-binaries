@@ -1,0 +1,10 @@
+prefix=c:/fra/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: FOX
+Description: FOX Toolkit library 1.6
+Version: 1.6
+Libs: -L${libdir} -lfox
+Cflags: -I${includedir}/fox-1.6
+

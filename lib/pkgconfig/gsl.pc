@@ -1,0 +1,10 @@
+prefix=c:/fra/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.16
+Libs: -L${libdir} -lgsl ${GSL_CBLAS_LIB} -lm
+Cflags: -I${includedir}
