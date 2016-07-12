@@ -1,0 +1,10 @@
+prefix=c:/fra/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libsndfile
+Description: library for reading and writing files containing sampled sound  
+Version: 1.0.27
+
+Libs: -L${libdir} -lsndfile -lm
+Cflags: -I${includedir}
