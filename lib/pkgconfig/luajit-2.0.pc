@@ -1,0 +1,10 @@
+prefix=c:/fra/local
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: luajit-2.0
+Description: LuaJIT 2.0 libraries
+Version: 2.0.4
+
+Libs: -L${libdir} -lluajit
+Cflags: -I${includedir}/luajit-2.0
