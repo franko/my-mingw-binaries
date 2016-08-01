@@ -5,6 +5,6 @@ includedir=${prefix}/include
 Name: FOX
 Description: FOX Toolkit library 1.6
 Version: 1.6
-Libs: -L${libdir} -lfox
+Libs: -L${libdir} -lfox -lgdi32 -lwsock32
 Cflags: -I${includedir}/fox-1.6
 
