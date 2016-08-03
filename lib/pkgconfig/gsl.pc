@@ -1,11 +1,8 @@
-prefix=/c/fra/local
-exec_prefix=/c/fra/local
-libdir=/c/fra/local/lib
-includedir=/c/fra/local/include
+prefix=C:/fra/local
 GSL_CBLAS_LIB=-lgslcblas
 
 Name: GSL
 Description: GNU Scientific Library
 Version: 2.1
-Libs: -L/c/fra/local/lib -lgsl ${GSL_CBLAS_LIB} -lm
-Cflags: -I/c/fra/local/include
+Libs: -L${prefix}/lib -lgsl ${GSL_CBLAS_LIB} -lm
+Cflags: -I${prefix}/include

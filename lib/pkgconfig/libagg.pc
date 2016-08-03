@@ -1,4 +1,4 @@
-prefix=/c/fra/local
+prefix=C:/fra/local
 libdir=${prefix}/lib
 includedir=${prefix}/include
 
