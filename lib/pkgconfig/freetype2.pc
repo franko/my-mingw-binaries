@@ -1,0 +1,7 @@
+prefix=c:/fra/local
+
+Name: Freetype2
+Description: Freetype2 library
+Version: 2.7
+Libs: -L${prefix}/lib -lfreetype
+Cflags: -I${prefix}/include
